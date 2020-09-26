@@ -15,18 +15,18 @@ public class TeleportRayActivator : MonoBehaviour
         CheckForRayActivation(_leftTeleportRay);
         CheckForRayActivation(_rightTeleportRay);
     }
-
+    private void CheckForRayActivation(XRController controller)
+    {
+        if (controller)
+        {
+            controller.gameObject.SetActive(CheckIfTeleportActivated(controller));
+        }
+    }
     private bool CheckIfTeleportActivated(XRController controller)
     {
         InputHelpers.IsPressed(controller.inputDevice, _teleportActivationBtn, out bool isActive, _activationThreshold);
         return isActive;
     }
 
-    private void CheckForRayActivation(XRController controller)
-    {
-        if(controller)
-        {
-            controller.gameObject.SetActive(CheckIfTeleportActivated(controller));
-        }
-    }
+
 }

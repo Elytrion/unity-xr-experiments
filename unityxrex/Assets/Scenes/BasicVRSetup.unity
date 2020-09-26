@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 185400662}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Camera Offset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 258666468}
   - component: {fileID: 258666467}
   - component: {fileID: 258666466}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LeftTeleport Ray
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -488,7 +488,7 @@ MonoBehaviour:
   m_EnableInputActions: 1
   m_PoseProvider: {fileID: 0}
   m_ControllerNode: 0
-  m_SelectUsage: 2
+  m_SelectUsage: 3
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.2
@@ -695,7 +695,7 @@ GameObject:
   - component: {fileID: 309971815}
   - component: {fileID: 309971817}
   - component: {fileID: 309971816}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Teleport Reticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -856,7 +856,7 @@ Transform:
   m_GameObject: {fileID: 422138200}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.10045001, y: 0.19758263, z: 0.92300016}
-  m_LocalScale: {x: 2.4361, y: 1, z: 1}
+  m_LocalScale: {x: 2.4361, y: 1, z: 0.77998}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -872,7 +872,7 @@ GameObject:
   - component: {fileID: 511576823}
   - component: {fileID: 511576825}
   - component: {fileID: 511576824}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Teleport Reticle Gradient
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -953,7 +953,7 @@ GameObject:
   - component: {fileID: 567233590}
   - component: {fileID: 567233589}
   - component: {fileID: 567233588}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Teleport Reticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1319,7 +1319,7 @@ GameObject:
   - component: {fileID: 768967455}
   - component: {fileID: 768967454}
   - component: {fileID: 768967453}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RightTeleport Ray
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1636,7 +1636,7 @@ MonoBehaviour:
   m_EnableInputActions: 1
   m_PoseProvider: {fileID: 0}
   m_ControllerNode: 5
-  m_SelectUsage: 2
+  m_SelectUsage: 3
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.2
@@ -2417,7 +2417,7 @@ GameObject:
   - component: {fileID: 1214578560}
   - component: {fileID: 1214578559}
   - component: {fileID: 1214578558}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LeftHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2519,7 +2519,7 @@ MonoBehaviour:
   m_EnableInputActions: 1
   m_PoseProvider: {fileID: 0}
   m_ControllerNode: 4
-  m_SelectUsage: 3
+  m_SelectUsage: 2
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.1
@@ -2686,7 +2686,7 @@ GameObject:
   - component: {fileID: 1269770664}
   - component: {fileID: 1269770663}
   - component: {fileID: 1269770662}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: XR Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2781,7 +2781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc4f2c0214c9b494fa7eb5b8b2c02885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_System: {fileID: 0}
+  m_System: {fileID: 1269770658}
   m_TurnUsage: 1
   m_Controllers:
   - {fileID: 2087625134}
@@ -2800,7 +2800,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 2
-  m_Radius: 0.15
+  m_Radius: 0.2
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
@@ -3356,7 +3356,7 @@ GameObject:
   - component: {fileID: 1586223397}
   - component: {fileID: 1586223399}
   - component: {fileID: 1586223398}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Teleport Reticle Gradient
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3438,7 +3438,7 @@ GameObject:
   - component: {fileID: 1944025041}
   - component: {fileID: 1944025040}
   - component: {fileID: 1944025039}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: VR Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -3796,7 +3796,7 @@ GameObject:
   - component: {fileID: 2087625134}
   - component: {fileID: 2087625133}
   - component: {fileID: 2087625132}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RightHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3898,7 +3898,7 @@ MonoBehaviour:
   m_EnableInputActions: 1
   m_PoseProvider: {fileID: 0}
   m_ControllerNode: 5
-  m_SelectUsage: 3
+  m_SelectUsage: 2
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.1
@@ -3921,6 +3921,10 @@ PrefabInstance:
     - target: {fileID: 4768171692684956282, guid: 853a12b467e147c46bac6899956afd64, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768171692684956282, guid: 853a12b467e147c46bac6899956afd64, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6506960100382286797, guid: 853a12b467e147c46bac6899956afd64, type: 3}
       propertyPath: m_Enabled
